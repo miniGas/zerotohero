@@ -58,9 +58,7 @@ async function joinCredentialGroup(groupId, bandadaDashboardUrl, appUrl) {
   console.log(semaphoreGroup);
 }
 
-const GROUP_ID = "34542554362187573382361346043900";
-const BANDADA_DASHBOARD_URL = "https://bandada.pse.dev";
-const APP_URL = "https://credential-bandada-semaphore.vercel.app";
+const GROUP_ID = "";
 
 joinCredentialGroup(GROUP_ID, BANDADA_DASHBOARD_URL, APP_URL).catch(
   console.error
